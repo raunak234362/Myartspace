@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px ;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid lightgray;
+}
+.main_heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: darkcyan;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: aquamarine;
+}
+    </style>
+</head>
+<body>
+    <!-- <div class="main"> -->
+    <div class="container">
+    <form action="" method="get">
+        <h1 class="main_heading">Registration Form</h1>
+        <hr>
+        <p>Required field are followed by *</p>
+        <fieldset class="main_field">
+        <legend><h2>Contact Information</h2></legend>
+        <p>Name: *
+            <input type="text" name="name" required placeholder></p>
+        <fieldset>  
+            <legend>Gender *</legend>
+        <p>
+            Male <input type="radio" name="gender" id="" required>
+            female <input type="radio" name="gender" id="" required>
+        </p>
+        </fieldset>
+        <p>Date of Birth: *<input type="date" name="exp_date" id="exp_date" required></p>
+        <p>Contact Number: *<input type="number" name="contact number" id="contact number" required></p>
+    <p>Address: <textarea name="address" id="address" cols="15" rows="1"></textarea><textarea name="address" id="address" cols="15" rows="1"></textarea></p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+        </fieldset>
+        <input type="submit" value="Pay Now">
+    <div>
+    </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

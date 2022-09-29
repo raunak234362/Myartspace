@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyartSpace | Login/Signup</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- <link rel="stylesheet" href="style3.css"> -->
+    <style>
+        *{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px ;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+input[type="email"],
+input[type="password"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: #fff;
+    border: 1px solid lightgray;
+}
+.main_heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: darkcyan;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+}
+.sign{
+    margin-top: 10px;
+}
+input[type="submit"]:hover{
+    background-color: aquamarine;
+}
+.banner {
+            background-image: url(../favicon/myarts.gif);
+            background-color: black;
+            height: 20vw;
+            min-height: 100px;
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: 40%;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <header class="main_heading">
+        <div class="banner"></div>
+    </header>
+    <!-- <div class="main"> -->
+    <div class="container">
+    <form action="" method="get">
+        <h1 class="main_heading">Login Page</h1>
+        <hr>
+        <fieldset class="main_field">
+        <legend><h2>Contact Information</h2></legend>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Password: <input type="password" name="password" id="password"></p>
+        </fieldset>
+    <hr>
+    <div>
+    <input type="submit" value="Pay Now">
+    <input class="sign" type="submit" value="SignUp with Google">
+    </fieldset>
+    </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

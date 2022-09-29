@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <title>MyartSpace | HOME</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .foot {
+            background-color: aliceblue;
+        }
+
+        nav {
+            display: flex;
+            position: sticky;
+            /* top: 0; */
+            background-color: rgb(103, 103, 103);
+
+        }
+
+        .pos {
+            position: sticky;
+            flex-direction: column;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            position: sticky;
+            text-align: center;
+            padding: 15px;
+            float: left;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: rgb(0, 0, 0);
+        }
+
+
+        .flex-align-right {
+            margin-left: auto;
+        }
+
+        .cllg h2 span {
+            background: radial-gradient(circle, rgba(58, 123, 209, 1) 0%, rgba(213, 149, 227, 1) 100%, rgba(69, 91, 90, 1) 100%);
+            padding: 3px 50px;
+            border-radius: 30px;
+            box-shadow: 5px 5px 5px rgba(0, 2, 2, 0.404);
+        }
+
+        .clg {
+            
+            margin: 0px;
+            text-align: center;
+            text-shadow: 5px 5px 5px rgba(40, 40, 40, 0.404);
+            padding: 10px;
+            font-size: 30px;
+            font-family: 'Pacifico';
+            color: rgb(255, 255, 255);
+        }
+
+        iframe {
+            height: 50vh;
+        }
+
+        .frame1 {
+            display: flex;
+            background-color: rgb(103, 103, 103);
+            margin: 0px;
+            padding-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .main-frame {
+            margin: 0px 5px;
+            padding: 0px;
+            background-color: black;
+            flex-direction: column;
+            width: 30%;
+            height: auto;
+            border: 6px solid rgb(128, 128, 128);
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px rgb(40, 40, 40, 0.404);
+        }
+
+        .container #vid-1,
+        #vid-2,
+        #vid-3 {
+            margin-top: 0px;
+        }
+
+        .container #vid-4,
+        #vid-5,
+        #vid-6 {
+            margin-top: 10px;
+        }
+
+        .crs {
+            color: azure;
+            font-family: 'Pacifico';
+            font-size: 30px;
+            margin: 0;
+            background-color: rgb(103, 103, 103);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .rounded-circle {
+            clip-path: circle(30% at 50%);
+            width: 25%;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .foot {
+            background-color: rgb(205, 247, 249);
+            text-align: center
+        }
+
+        footer {
+            background-color: rgb(159, 235, 235);
+            margin: 0%;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .copyright {
+            float: right;
+        }
+
+        section h2 {
+            color: white;
+            text-decoration: underline;
+            text-align: center;
+            text-shadow: 5px 5px 5px rgba(40, 40, 40, 0.404);
+            font-family: 'Pacifico';
+        }
+
+        .banner {
+            background-image: url(../favicon/myarts.gif);
+            height: 20vw;
+            min-height: 100px;
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: 40%;
+            background-attachment: fixed;
+        }
+
+        /* external css: flickity.css */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+        @media screen and (max-width:700px) {
+            nav {
+                flex-direction: column;
+                padding: 10px 0px;
+            }
+
+            .flex-align-right {
+                margin-left: 0;
+            }
+        }
+
+        .carousel-cell {
+            width: 40%;
+            padding-bottom: 20px;
+            margin-right: 10px;
+            border-radius: 5px;
+            
+        }
+        .carousel-cell-1 {
+            width: 36%;
+            padding: 30px;
+            margin-right: 10px;
+            border-radius: 5px;
+            
+        }
+        .carousel-cell video{
+            max-width: 100%;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <header class="main_heading">
+            <div class="banner"></div>
+        </header>
+        <nav>
+            <a href="https:www.google.com">Home</a>
+            <a href="">College life</a>
+            <a href="">Portraits</a>
+            <a href="">Illustration</a>
+            <a class="flex-align-right" href="login.html">Login/SignUp</a>
+        </nav>
+        <section class="life">
+            <div class="cllg">
+                <h2 class="clg"><span><u>College Life</u></span></h2>
+            </div>
+                  <!-- Flickity HTML init -->
+                <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                    <div class="carousel-cell"><video src="video\college_life.mp4" autoplay muted></video></div>
+                    <div class="carousel-cell"><video src="video\college_life.mp4" autoplay muted></video></div>
+                    <div class="carousel-cell"><video src="video\college_life.mp4" autoplay muted></video></div>
+                    <div class="carousel-cell"><video src="video\college_life.mp4" autoplay muted></video></div>
+                    <div class="carousel-cell"><video src="video\college_life.mp4" autoplay muted></video></div>
+                </div>
+        </section>
+        <header>
+            <h2 class="crs">Courses</h2>
+        </header>
+        <section class="frame1">
+            <div class="main-frame">
+                <iframe width="100%" src="https://www.youtube.com/embed/61ppyY5rUB0" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>&nbsp;&nbsp;&nbsp;
+            <div class="main-frame">
+                <iframe width="100%" src="https://www.youtube.com/embed/61ppyY5rUB0" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>&nbsp;&nbsp;&nbsp;
+            <div class="main-frame">
+                <iframe width="100%" src="https://www.youtube.com/embed/61ppyY5rUB0" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="pdf">
+            <h2>Study Material</h2>
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell-1"><a href="Notes/CA unit-1.pdf" target="_blank"><img src="Notes\pic1.png" alt="" height="520px"></a></div>
+                <div class="carousel-cell-1"><a href="Notes/CA unit-2.pdf" target="_blank"><img src="Notes/pic2.png" alt="" height="520px"></a></div>
+                <div class="carousel-cell-1"> <a href="Notes/Java unit-4.pdf" target="_blank"><img src="Notes/pic3.png" alt="" height="520px"></a></div>
+                <div class="carousel-cell-1"><a href="Notes/MIS unit 1.pdf" target="_blank"><img src="Notes/pic4.png" alt="" height="520px"></a></div>
+            </div>
+        </section>
+        <section class="foot">
+            <h2 class="About">About Myself</h2>
+            <div class="col-12 col-md-6">
+                <img class="rounded-circle" src="images/mypic.jpg" alt="This is Raunak
+                        Deep Srivastava" height="180px">
+            </div>
+            <h3>Raunak Deep Srivastava</h3>
+            <a href="https://www.instagram.com/myartspace25/" target="_blank">Instagram</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://github.com/raunak234362" target="_blank"
+                rel="noopener noreferrer">Github</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/raunak-srivastava-03a5611b9/" target="_blank"
+                rel="noopener noreferrer">LinkedIn</a>
+            <h5>Hey guys, I am a fulltime software engineer and a part-time
+                graphic designer. I am a student of BCA 2<sup>nd</sup> year
+                student. And learning the web development because I found it
+                interesting. </h5>
+            <footer>
+                <a href="#">FAQ</a>
+                <a href="#">Contact Us</a>
+                <a href="#" class="copyright">MyartSpace</a>
+            </footer>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
